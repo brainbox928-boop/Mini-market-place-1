@@ -2,7 +2,6 @@
 
 Pure HTML + CSS + Bootstrap 5 + vanilla JS. No build step, no server.
 
-- Open `index.html` locally, or host the repo root on GitHub Pages / Netlify / Vercel.
+- Open `index.html` locally, or host the repo root on GitHub Pages / Netlify.
 - Edit business info and products in `js/data.js`, colors in `css/style.css`.
 - Demo data is stored in the visitor's browser (localStorage). Demo admin: `admin@novalink.com` / `admin123`.
-- `backend-node/` is an optional Node/Express/SQLite backend for a real launch (not needed for the demo).
