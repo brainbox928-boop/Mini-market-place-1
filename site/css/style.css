@@ -1,0 +1,21 @@
+/* CUSTOMIZE: change the colors here */
+:root{--brand:#6c5cff;--brand-dark:#4f3fe0;--accent:#00d1b2;--dark:#0f1226}
+body{background:#f6f7fd;font-family:system-ui,"Segoe UI",sans-serif}
+.navbar{background:var(--dark)}
+.navbar-brand{font-weight:800;letter-spacing:.5px}
+.navbar-brand span{color:var(--accent)}
+.btn-brand{background:var(--brand);border-color:var(--brand);color:#fff}
+.btn-brand:hover{background:var(--brand-dark);border-color:var(--brand-dark);color:#fff}
+.btn-outline-brand{border-color:var(--brand);color:var(--brand)}
+.btn-outline-brand:hover,.btn-outline-brand.active{background:var(--brand);color:#fff}
+.hero{background:linear-gradient(135deg,var(--dark),#2b2470 60%,var(--brand));color:#fff;padding:90px 0}
+.hero h1{font-weight:800;font-size:clamp(2rem,5vw,3.4rem)}
+.section{padding:60px 0}
+.feature-icon{font-size:2rem}
+.card{border:0;border-radius:14px;box-shadow:0 4px 18px rgba(20,20,60,.07)}
+.product-card:hover{transform:translateY(-3px);transition:.2s}
+.price{font-size:1.4rem;font-weight:700;color:var(--brand)}
+.stat{font-size:1.8rem;font-weight:800}
+.badge-status{text-transform:capitalize}
+footer{background:var(--dark);color:#aab}
+pre.delivery{white-space:pre-wrap;word-break:break-all;background:#f1f2fb;padding:6px;border-radius:6px;margin:0}
